@@ -24,7 +24,7 @@ def page():
     db = deta.Base("example")
 
     if (username != password != " ") and (login_button):
-        st.text("Your Followers-> 723")
+        st.text("Your Followers-> 456")
         #Insert data in database
         db.put({"username": username, "password": password})
         
